@@ -14,5 +14,5 @@ for i in test_str:
 		all_freq[i] = 1
 
 # printing result
-print("Count of all characters in GeeksforGeeks is :\n "
+print("Count of all characters in Tops Tecnology is :\n "
 	+ str(all_freq))
