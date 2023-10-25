@@ -1,0 +1,18 @@
+<<<<<<< HEAD:Python 12_Sep/Assignment/Module-2 (Fundamentals of python)/Que_5.txt
+"""What is the purpose continue statement in python?"""
+
+->Continue: The continue statement in Python is used to skip the remaining code inside a loop for the current iteration only.
+->
+    for i in range(5):
+    if i == 3:
+        continue
+=======
+"""What is the purpose continue statement in python?"""
+
+->Continue: The continue statement in Python is used to skip the remaining code inside a loop for the current iteration only.
+->
+    for i in range(5):
+    if i == 3:
+        continue
+>>>>>>> 80c6c9d626d696772149a7b8dda5a88e926ca214:Assignment/Module-2 (Fundamentals of python)/Que_5.txt
+    print(i)

@@ -1,0 +1,13 @@
+<<<<<<< HEAD:Python 12_Sep/Assignment/Module-2 (Fundamentals of python)/Que_14.txt
+""""What are negative indexes and why are they used? """
+
+->Negative indexing is used in Python to manipulate sequence objects such as lists, arrays, strings, etc.
+->Negative indexing retrieves elements from the end by providing negative numbers as sequence indexes.
+
+=======
+""""What are negative indexes and why are they used? """
+
+->Negative indexing is used in Python to manipulate sequence objects such as lists, arrays, strings, etc.
+->Negative indexing retrieves elements from the end by providing negative numbers as sequence indexes.
+
+>>>>>>> 80c6c9d626d696772149a7b8dda5a88e926ca214:Assignment/Module-2 (Fundamentals of python)/Que_14.txt
