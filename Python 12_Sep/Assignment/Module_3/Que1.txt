@@ -1,0 +1,11 @@
+# What is List? How will you reverse a list?
+
+1). Lists are used to store multiple items in a single variable.
+2). List items are ordered, changeable, and allow duplicate values.
+3). List items are indexed, the first item has index [0], the second item has index [1] etc.
+4). The list is changeable
+    -->meaning that we can change, add, and remove items in a list after it has been created.
+
+Ex.
+    thislist = ["apple", "banana", "cherry"]
+    print(thislist)

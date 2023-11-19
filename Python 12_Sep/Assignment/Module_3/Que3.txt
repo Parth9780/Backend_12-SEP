@@ -1,0 +1,15 @@
+# Differentiate between append () and extend () methods? 
+
+#----------------------------------------------#
+            Append()
+--> The Append method will add an item to end of the list.
+--> The lenght of the list will be increased by 1.
+--> It will update the original list itself.
+--> Return type is None.
+
+#----------------------------------------------#
+            Extend()
+--> The extend method will extend the list by appending all the items from the iterable.
+--> The lenght of the list will be increased depends on the lenght of the iterable.
+--> It will update the original list itself.
+--> Return type is None.

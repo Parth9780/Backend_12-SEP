@@ -1,0 +1,28 @@
+# How will you compare two lists?
+
+--> Python provides multiple ways to compare the two lists. Comparison is the process when the data items of are checked against another data item of list, whether they are the same or not.
+
+
+
+---> CMP()
+----->The Python cmp() function compares the two Python objects and returns the integer values
+
+---> The set() function and == operator
+---> The sort() function and == operator
+---> The collection.counter() function
+---> The reduce() and map() function
+
+
+--------------------------------------------
+Ex.
+
+list1 = [11, 12, 13, 14, 15]  
+list2 = [12, 13, 11, 15, 14]  
+  
+a = set(list1)  
+b = set(list2)  
+  
+if a == b:  
+    print("The list1 and list2 are equal")  
+else:  
+    print("The list1 and list2 are not equal")  
