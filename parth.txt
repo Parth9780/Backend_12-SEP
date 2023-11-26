@@ -1,3 +1,2 @@
-Name: parth
-Email: xyz@gmail.com
-Password: 123
+ID:102
+NAME:yash
