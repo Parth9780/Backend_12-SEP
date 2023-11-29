@@ -15,7 +15,7 @@ def cal_sum():
    label.config(text=sum)
    # messagebox.showinfo(f("Addition","{t1}+{t2}={sum}"))
 
-def sub_sum():
+def cal_sub():
    t1=int(a.get())
    t2=int(b.get())
    sum=t1-t2
@@ -23,7 +23,7 @@ def sub_sum():
    # messagebox.showinfo("Subtriction",f("{t1}-{t2}={sum}"))
 
 
-def mul_sum():
+def cal_sub():
    t1=int(a.get())
    t2=int(b.get())
    sum=t1*t2
@@ -31,7 +31,7 @@ def mul_sum():
    # messagebox.showinfo("multiplication",f("{t1}*{t2}={sum}"))
 
 
-def div_sum():
+def cal_div():
    t1=int(a.get())
    t2=int(b.get())
    sum=t1/t2
