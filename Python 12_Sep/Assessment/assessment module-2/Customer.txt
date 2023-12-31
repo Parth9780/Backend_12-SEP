@@ -1,0 +1,110 @@
+Name: Parth Kavathiya
+Account_Number: 101
+Age: 19
+Opening Date: 2023-10-29 22:09:06.789042
+Balance: 15000
+Name: Yash savaliya
+Account_Number: 102
+Age: 18
+Opening Date: 2022-09-28 26:26:60.38153
+Balance: 35000
+Name: Navil Desai
+Account_Number: 101
+Age: 18
+Opening Date: 2023-10-29 22:09:06.790041
+Balance: 26500
+Name: Parth Kavathiya
+Account_Number: 101
+Age: 19
+Opening Date: 2023-10-29 22:15:58.377846
+Balance: 15000
+Name: Yash savaliya
+Account_Number: 102
+Age: 18
+Opening Date: 2022-09-28 26:26:60.38153
+Balance: 35000
+Name: Navil Desai
+Account_Number: 101
+Age: 18
+Opening Date: 2023-10-29 22:15:58.379021
+Balance: 26500
+Name: Parth Kavathiya
+Account_Number: 101
+Age: 19
+Opening Date: 2023-10-29 22:16:38.075794
+Balance: 15000
+Name: Yash savaliya
+Account_Number: 102
+Age: 18
+Opening Date: 2022-09-28 26:26:60.38153
+Balance: 35000
+Name: Navil Desai
+Account_Number: 101
+Age: 18
+Opening Date: 2023-10-29 22:16:38.076794
+Balance: 26500
+Name: Parth Kavathiya
+Account_Number: 101
+Age: 19
+Opening Date: 2023-10-29 22:48:53.358198
+Balance: 15000
+Name: Yash savaliya
+Account_Number: 102
+Age: 18
+Opening Date: 2022-09-28 26:26:60.38153
+Balance: 35000
+Name: Navil Desai
+Account_Number: 101
+Age: 18
+Opening Date: 2023-10-29 22:48:53.359926
+Balance: 26500
+Name: Parth Kavathiya
+Account_Number: 101
+Age: 19
+Opening Date: 2023-10-29 22:49:00.796482
+Balance: 15000
+Name: Yash savaliya
+Account_Number: 102
+Age: 18
+Opening Date: 2022-09-28 26:26:60.38153
+Balance: 35000
+Name: Navil Desai
+Account_Number: 101
+Age: 18
+Opening Date: 2023-10-29 22:49:00.797480
+Balance: 26500
+Name: Parth Kavathiya
+Account_Number: 101
+Age: 19
+Opening Date: 2023-10-29 22:54:30.300742
+Balance: 15000
+Name: Yash savaliya
+Account_Number: 102
+Age: 18
+Opening Date: 2022-09-28 26:26:60.38153
+Balance: 35000
+Name: Navil Desai
+Account_Number: 101
+Age: 18
+Opening Date: 2023-10-29 22:54:30.301470
+Balance: 26500
+Name: Parth Kavathiya
+Account_Number: 101
+Age: 19
+Opening Date: 2023-10-29 23:06:19.003519
+Balance: 15000
+Name: Yash savaliya
+Account_Number: 102
+Age: 18
+Opening Date: 2022-09-28 26:26:60.38153
+Balance: 35000
+Name: Navil Desai
+Account_Number: 101
+Age: 18
+Opening Date: 2023-10-29 23:06:19.006523
+Balance: 26500
+Name: parth patel
+Account_Number: 9762507772
+Age: 20
+Opening Date: 2023-10-29 23:06:49.865109
+Balance: 23000

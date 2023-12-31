@@ -1,8 +1,5 @@
 import sqlite3
-from sqlite3 import Error
 from datetime import datetime
-
-
 
 conn =sqlite3.connect("Pharmacy_Management.db")
 
@@ -30,6 +27,13 @@ cursor.execute('''
 print("Table created successfully")
 conn.close()
 
+# Pharmacy Manager
+#  Can Register 
+#  Can Login 
+#  Can Add Medicine
+#  Can View Medicine 
+#  Can Delete Medicine
+
 def insert_medicine(name, quantity, added_by, price):
             conn = sqlite3.connect('Pharmacy_Management.db')
             cursor = conn.cursor()
@@ -43,8 +47,9 @@ def insert_medicine(name, quantity, added_by, price):
             conn.close()
 
 
-class Pharmacy():
-    def register(self):
+class Pharmacy_manager():
+        
+    def register():
         name = input("Enter the name: ")
         Pharmacy_name = input("Enter the Pharmacy_name: ")
 
@@ -55,8 +60,8 @@ class Pharmacy():
         conn.commit()
 
         print("\nManager added successfully!")
-    
-    def Login(self):
+        
+    def Login():
         name = input("Enter the name: ")
         Pharmacy_name = input("Enter the Pharmacy_name: ")
 
@@ -70,13 +75,14 @@ class Pharmacy():
         else:
             print("\nInvalid name or Pharmacy_name!")
 
-    def Add_Medicine(self):
+    def Add_Medicine():
         name = input('Enter the medicion name :')
         quantity = input('Enter Quntity :')
         added_by =int(input("Enter By added :"))
         price = int(input('Enter Price :'))
+        insert_medicine()
     
-    def view_medicine(self):
+    def view_medicine():
             conn = sqlite3.connect('medicine.db')
             cursor = conn.cursor()
             cursor.execute('''
@@ -86,8 +92,8 @@ class Pharmacy():
             for row in rows:
                 print(row)
             conn.close()
-        
-    def Delete_Medicine(self):
+
+    def Delete_Medicine():
         conn = sqlite3.connect('Pharmacy_Management.db')
         cursor = conn.cursor()
         cursor.execute('''
@@ -96,5 +102,4 @@ class Pharmacy():
         conn.commit()
         print("Medicine deleted successfully")
         conn.close()
-
-py = Pharmacy()
+    

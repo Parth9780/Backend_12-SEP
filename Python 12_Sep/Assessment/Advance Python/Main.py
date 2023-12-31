@@ -1,33 +1,34 @@
-# from Admin import *
-import Admin
-from Pharmacy_Manager import *
+import admin
+import Pharmacy_Manager
 import sqlite3
 
-conn =sqlite3.connect("Pharmacy_Management.db")
-print("___________Wellcome To Pharmacy Management System___________")
 
+print('____________________WELLCOME TO PHARMACY MANAGEMENT SYSTEM____________________')
+choice = input("1.Admin\n2.Manager\nEnter Your Roll.. :")
 
-ch = input('1.Admin\n2.Manager\nEnter Your Roll :')
-
-if ch == '1':
-    list = print('1.Can Register\n2.Can Login\n3.Can View all manager\n4.Can View Medicine')
-    Achoice = int(input('Enter Your Choice :'))
-    if Achoice == '1':
-        Admin.register()
-        print("Register")
-        pass
-    elif Achoice == '2':
-        Admin.Login()
-        pass
-    elif Achoice == '3':
-        Admin.View_manager()
-        pass
-    elif Achoice == '4':
-        Admin.View_Medicine()
-        pass
+if choice == '1':
+    ch = input('1. Can register\n2. Can Login\n3. Can Ciew all manager\n4. Can View all medicine\nEnter the any option: ')
+    if ch == '1':
+        admin.ad.register()
+    elif ch == '2':
+        admin.ad.Login()
+    elif ch == '3':
+        admin.ad.View_manager()
+    elif ch == '4':
+        admin.ad.View_Medicine()
     else:
-        print('Invalid Choice...')
-        
-elif ch == '2':
-    list = print('1.Can Register\n2.Can Login\n3.Can Add Medicien\n4.Can View Medicine\n5.Can Delete Medicine')
-    choice = int(input('Enter Your Choice :'))
+        print("Invalide Opstion..")
+elif choice == '2':
+    ch = input('1. Can register\n2. Can Login\n3. Can Add Medicine\n4. Can View all medicine\n\5. Can Delete Medicinen\nEnter the any option: ')
+    if ch == '1':
+        Pharmacy_Manager.py.register()
+    elif ch == '2':
+        Pharmacy_Manager.py.Login()
+    elif ch == '3':
+        Pharmacy_Manager.py.Add_Medicine()
+    elif ch == '4':
+        Pharmacy_Manager.py.view_medicine()
+    elif ch == '5':
+        Pharmacy_Manager.py.Delete_Medicine()
+    else:
+        print("Invalide Opstion..")
