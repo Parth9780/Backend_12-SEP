@@ -1,0 +1,10 @@
+2.>>    How to check installed version of django?
+
+--> the python installed using CMD to command
+            --> pip install django
+
+--> the django in complite install then we check django version to commend
+            --> django-admin --version
+        output. 5.0
+
+\

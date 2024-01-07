@@ -1,0 +1,13 @@
+4.>>    What is Django URLs?make program to create django urls
+
+--> In Django, a URL is a unique string that represents a specific resource or action on a web application.
+
+--> URLs are used to route users to the appropriate content or functionality when they visit a web application.
+
+    from django.urls import path
+    from . import views
+
+    urlpatterns = [
+        path('', views.home, name='home'),
+        path('about/', views.about, name='about'),
+    ]

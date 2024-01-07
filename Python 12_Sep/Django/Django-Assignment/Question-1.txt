@@ -1,0 +1,11 @@
+1>> Why Django should be used for web-development? Explain how you can create a project in Django?
+
+--> Python is a powerful high-level programming language that can be possibly used in a lot of fields. These fields can range from data science to automation and web development. It also has amazing libraries and frameworks that include pandas, NumPy, PyTorch, selenium, OpenCV, bottle, pyramid, flask, etc.
+
+--> the framework in Python that is used for web development majorly is Django. 
+
+--> Django is the best framework for web applications, as it allows developers to use modules for faster development.
+
+--> As a developer, you can make use of these modules to create apps, websites from an existing source. It speeds up the development process greatly, as you do not have to code everything from scratch.
+
+--> 
