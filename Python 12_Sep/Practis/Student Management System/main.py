@@ -21,3 +21,13 @@ if ch == 1:
         print("Invalid choice.!")
 elif ch == 2:
     choice = int(input('1.Add marks to student\n2.View all student\n\nEnter a choice by Faculty: '))
+    if choice == 1:
+        sl.add_marks_faculty()
+    elif choice == 2:
+        sl.view_all_students(students)
+    else:
+        print('Invalid Options')
+elif ch == 3:
+    print("Hello Students...")
+else:
+    print('Invalid option.....!')

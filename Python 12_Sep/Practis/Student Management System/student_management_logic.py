@@ -63,3 +63,24 @@ def view_specific_student(students_dict):
     print(f"Subject 1 Marks: {student_details['marks']['subject1']}")
     print(f"Subject 2 Marks: {student_details['marks']['subject2']}")
 
+def add_marks_faculty():
+    marks = []
+    weights = []
+
+    for i in range(5):
+        mark = int(input("Enter marks for subject {}: ".format(i+1)))
+        marks.append(mark)
+
+    for i in range(5):
+        weight = int(input("Enter weight for subject {}: ".format(i+1)))
+        weights.append(weight)
+
+    weighted_average, percentage, grade = add_marks_faculty(marks, weights)
+    print("Weighted average: ", weighted_average)
+    print("Percentage: {:.2f}%".format(percentage))
+    print("Grade: ", grade)
+    
+def view_all_students(students_dict):
+   if not students_dict:
+        print("No students found")
+    
